@@ -1,0 +1,10 @@
+<h1> Home Page </h1>
+
+
+<ul class="movie-list">
+  <li *ngFor="let oneMovie of listOfMovies">
+    <h2> ROOM {{oneMovie.room}} </h2>
+    <img src="{{ oneMovie.poster }}" />
+    <h3> {{ oneMovie.title }} </h3>
+  </li>
+</ul>

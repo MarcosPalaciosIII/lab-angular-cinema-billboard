@@ -1,0 +1,12 @@
+.movie-list {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  list-style: none;
+  text-align: center;
+}
+
+img {
+  width: 200px;
+  height: 300px;
+}
